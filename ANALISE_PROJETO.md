@@ -1,6 +1,6 @@
-# 📊 Análise Completa do Projeto
+# Análise Completa do Projeto
 
-## 🎯 Visão Geral
+## Visão Geral
 
 Este é um projeto que tem como proposito criar, gerenciar e validar propostas!
 
@@ -151,8 +151,6 @@ crm-projeto/
 cd backend
 dotnet restore
 dotnet run
-# API disponível em: https://localhost:5001 ou http://localhost:5000
-# Swagger: http://localhost:5000
 ```
 
 ### Frontend
