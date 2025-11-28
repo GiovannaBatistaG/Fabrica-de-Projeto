@@ -1,0 +1,44 @@
+.status-cards-container {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 60px; 
+    flex-wrap: nowrap; 
+}
+
+.status-card {
+    flex: 1 1 305px; 
+    padding: 20px 40px;
+    color: white;
+    border-radius: 12px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    height: 70px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card-count {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-blue {
+    background-color: #6a8dcf; 
+}
+
+.card-green {
+    background-color: #5cb85c; 
+}
+
+.card-purple {
+    background-color: #9a48bb; 
+}
+

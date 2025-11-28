@@ -1,0 +1,127 @@
+.dashboard-container {
+  width: 95%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Cards de status */
+.status-cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  flex: 1;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 6px 3px 6px rgba(1,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 6px;
+  background-color: #1976d2;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.validar-bar { background-color: #ed6c02; }
+.finalizadas-bar { background-color: #2e7d32; }
+
+/* Kanban */
+.kanban-container {
+  display: flex;
+  gap: 20px;
+}
+
+.kanban-column {
+  flex: 1;
+  min-width: 300px;
+  background: #8d17b518;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 70vh;
+  overflow-y: auto;
+}
+
+.kanban-column h2 {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.kanban-column h2.recebidos { color: #1976d2; }
+.kanban-column h2.validar { color: #ed6c02; }
+.kanban-column h2.finalizadas { color: #2e7d32; }
+
+/* Tasks */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin:10px;
+}
+
+.task-card {
+  background: #fff;
+  padding: 10px;
+  border-left: 6px solid #1976d2;
+  border-radius: 6px;
+  height: 100px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.task-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.task-card.validar { border-left-color: #ed6c02; }
+.task-card.finalizadas { border-left-color: #2e7d32; }
+
+.task-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.task-desc {
+  font-size: 0.875rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.task-footer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.avatar {
+  background: #1976d2;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+}
+
+.task-card.validar .avatar { background: #ed6c02; }
+.task-card.finalizadas .avatar { background: #2e7d32; }
+
+.task-id {
+  font-size: 0.75rem;
+  color: #555;
+}

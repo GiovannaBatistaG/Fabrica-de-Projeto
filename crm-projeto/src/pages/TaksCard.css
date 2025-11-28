@@ -1,0 +1,14 @@
+.card{
+    flex: 1 1 1;
+    padding: 20px 40px;
+    width: 305px;
+    padding-top: 60px;
+    background-color: hsla(0, 0%, 100%, 0.11);
+    padding: 20px 40px;
+}
+.status-cards-container {
+    display: flex;
+    gap: 10px; 
+    margin: 60px; 
+    flex-wrap: nowrap; 
+}

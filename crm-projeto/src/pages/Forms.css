@@ -1,0 +1,53 @@
+.corpo {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(159, 159, 159, 0.5);
+    padding: 20px;
+    margin: 10px;
+}
+
+.corpo h1 {
+    color: #606060;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.search-controls {
+    margin-bottom: 20px;
+}
+
+.search-bar-container {
+    margin-top: 15px;
+}
+
+.corpo input {
+    padding: 12px 10px;
+    width: 95%;
+    border: 2px solid #a9a9a99a;
+    box-shadow: 1px 1px 5px rgba(221, 221, 221, 0.3);
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.corpo input:focus {
+    outline: none;
+    border-color: #1976d2;
+    box-shadow: 0 0 5px rgba(25, 118, 210, 0.3);
+}
+
+/* Estilo para buttons regulares (não IconButton do Material-UI) */
+.corpo button:not(.MuiIconButton-root) {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.corpo button:not(.MuiIconButton-root):hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}

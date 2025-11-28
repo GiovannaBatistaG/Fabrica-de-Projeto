@@ -1,0 +1,54 @@
+.header{
+    background-color: #ffffff;
+    color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1px 10px;
+    z-index: 1000;;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: background 0.3s ease;
+    
+    
+}
+
+.header-content {
+  color: black;
+  font-size: large;
+  font-family: 'roboto', sans-serif;
+  display: flex;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-img {
+  width: 40px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  position: right;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  gap: 14px; 
+}
+
+.header-img {
+  width: 120px;
+  height: auto;
+}
+
+icon{
+  position: absolute;
+}
+
+.user-icon {
+  height: 50px;
+  margin-right: 20px;
+}
